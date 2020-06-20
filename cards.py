@@ -57,27 +57,3 @@ for i in range(len(N)):
     else:
         print('1')
 
-# //package company.thoughtWorks;
-#
-# import java.io.BufferedReader;
-# import java.io.InputStreamReader;
-#
-# public class TrickWithTheCards {
-# 	public static void main(String args[]) throws Exception {
-# 		// BufferedReader
-# 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-# 		int tc = Integer.parseInt(br.readLine());
-# 		while (tc-- > 0) {
-# 			long N = Long.parseLong(br.readLine());
-# 			if (N <= 0L) {
-# 				System.out.println(0);
-# 			} else if (N <= 2L) {
-# 				System.out.println(1);
-# 			} else if (N % 3L == 0) {
-# 				System.out.println(N / 3L);
-# 			} else {
-# 				System.out.println(N);
-# 			}
-# 		}
-# 	}
-# }
